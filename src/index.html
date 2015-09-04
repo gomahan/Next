@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="components/angular-material/angular-material.css">
     <link rel="stylesheet" type="text/css" href="components/angular-material-icons/angular-material-icons.css">
     <link rel="stylesheet" type="text/css" href="components/rdash-ui/dist/css/rdash.css">
-     <link rel="stylesheet" type="text/css" href="components/extras/addedcss.css">
+     <link rel="stylesheet" type="text/css" href="css/addedcss.css">
     <!-- endbuild -->
 
     <!-- SCRIPTS -->
@@ -19,8 +19,8 @@
     <script type="text/javascript" src="components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
     <script type="text/javascript" src="components/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script type="text/javascript" src="components/angular-aria/angular-aria.js"></script>
-    <script type="text/javascript" src="components/angular-animate/angular-animate.js"></script>
     <script type="text/javascript" src="components/angular-material/angular-material.js"></script>
+    <script type="text/javascript" src="components/angular-animate/angular-animate.js"></script>
     <script type="text/javascript" src="components/angular-material-icons/angular-material-icons.js"></script>
      <!-- endbuild -->
 
@@ -72,25 +72,32 @@
     </md-button>
   </md-toolbar>
 
- <!-- Sidebar -->
+ <!-- Sidebar  to do sliding part-->
     <div id="sidebar-wrapper">
       <ul class="sidebar">
         <li class="sidebar-main">
-          <a ng-click="toggleSidebar()">
+          <!-- <a ng-click="toggleSidebar()"> -->
+           <a href="#/account-summary">
             Dashboard
-            <span class="menu-icon glyphicon glyphicon-transfer"></span>
+            <span class="menu-icon glyphicon glyphicon-list-alt"></span>
           </a>
         </li>
-        <li class="sidebar-title"><span>NAVIGATION</span></li>
+        <li class="sidebar-title"><span>Side text</span></li>
+       <!-- to do menu items
         <li class="sidebar-list">
-          <a href="#">Dashboard <span class="menu-icon fa fa-tachometer"></span></a>
-        </li>
-        <li class="sidebar-list">
-          <a href="#/tables">Tables <span class="menu-icon fa fa-table"></span></a>
-        </li>
-         <li class="sidebar-list">
-          <a href="#/portlet">Portlet <span class="menu-icon fa fa-table"></span></a>
-        </li>
+         
+         <a href="#">Content </a>
+       
+       </li>
+       <li class="sidebar-list">
+          
+         <a href="#/tables">Tables <span class="menu-icon fa fa-table"></span></a>
+         
+       </li> -->
+        <!--  <li class="sidebar-list">
+         <ng-md-icon icon=""></ng-md-icon>
+         <a href="#/portlet">Portlet <span class="menu-icon fa fa-table"></span></a>
+                </li> -->
       </ul>
       <div class="sidebar-footer">
         <div class="col-xs-4">
